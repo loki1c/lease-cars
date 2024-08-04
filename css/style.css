@@ -29,7 +29,7 @@ html, body{
     align-items: flex-end;
     color: #fff;
 }
-.header{
+.header-main{
     background-color: #151515;
     position: absolute;
     z-index: 5;
@@ -134,11 +134,12 @@ html, body{
     background-color: #151515;
     border-radius: 0;
     opacity: 1;
-    margin: 0 30px;
 }
-.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
-    margin: 0 30px;
-
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
+    margin: 0 15px;
+}
+.swiper-pagination-bullets.swiper-pagination-horizontal{
+    bottom: 50px;
 }
 .swiper-pagination-bullet-active{
     height: 6px;
