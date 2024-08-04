@@ -139,7 +139,7 @@ html, body{
     margin: 0 15px;
 }
 .swiper-pagination-bullets.swiper-pagination-horizontal{
-    bottom: 50px;
+    bottom: 60px;
 }
 .swiper-pagination-bullet-active{
     height: 6px;
